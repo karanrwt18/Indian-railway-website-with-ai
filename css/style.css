@@ -109,7 +109,7 @@ button {
 .navlinks a {
     padding: 10px 12px;
     border-radius: 10px;
-    color: black;
+    color: white;
     font-size: 15px;
 }
 
@@ -122,7 +122,7 @@ button {
 .menu {
     display: none;
     background: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 27px
 }
 
