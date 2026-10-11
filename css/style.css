@@ -122,7 +122,7 @@ button {
 .menu {
     display: none;
     background: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 5, 5);
     font-size: 27px
 }
 
