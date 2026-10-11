@@ -1,0 +1,4 @@
+Create a multi-page railway booking website called "Indian Railway" using HTML, CSS3, 
+and  JavaScript. 
+Features: Home, Trains, PNR, Train Status, Booking History, About, Contact.
+ Dark mode toggle, local storage, responsive design, animated train hero image, ...

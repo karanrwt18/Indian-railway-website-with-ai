@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Book Train Tickets | RAILSETU</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container nav"><a class="brand" href="index.html"><span class="brand-mark">
+                    <img src="gassets/jj.png" alt="Indian Railways Logo">
+                </span>
+                Indian Railways</a><button class="menu">☰</button>
+            <nav class="navlinks">
+                <a class="active" href="index.html">Home</a><a class="" href="trains.html">Trains</a><a
+                    href="pnr.html">PNR</a><a href="train-status.html">Train Status</a><a
+                    href="booking-history.html">Bookings</a><a href="about.html">About</a><a
+                    href="contact.html">Contact</a><a class="btn btn-primary" href="login.html">Login</a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container hero-grid">
+            <div><span class="eyebrow">India's journey, simplified</span>
+                <h1>Travel India.<br><span>One ticket away.</span></h1>
+                <p>Search trains, choose your seat, add passengers and generate a digital railway ticket in a smooth
+                    booking experience.</p>
+                <div class="hero-actions"><a class="btn btn-primary" href="#search">Search Trains →</a><a
+                        class="btn btn-light" href="pnr.html">Check PNR</a></div>
+            </div>
+            <div class="train-art">
+                <img src="gassets/kk.jpg" alt="Vande Bharat Express - Indian Railways" class="train-image">
+            </div>
+        </div>
+    </section>
+    <div class="container" id="search">
+        <form class="searchbox" id="searchForm">
+            <div class="searchgrid">
+                <div class="field"><label>From</label><select id="from" class="station"></select></div>
+                <div class="field"><label>To</label><select id="to" class="station"></select></div>
+                <div class="field"><label>Journey Date</label><input id="date" type="date"></div>
+                <div class="field"><label>Class</label><select id="class">
+                        <option value="ALL">All Classes</option>
+                        <option>SL</option>
+                        <option>3A</option>
+                        <option>2A</option>
+                        <option>1A</option>
+                        <option>CC</option>
+                        <option>EC</option>
+                    </select></div><button class="btn btn-primary" type="submit">Search</button>
+            </div>
+        </form>
+    </div>
+    <section class="section">
+        <div class="container">
+            <div class="section-head">
+                <div>
+                    <h2>Popular journeys</h2>
+                    <p class="section-sub">Explore high-demand routes across India.</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card route-card">
+                    <div class="icon">🏙️</div>
+                    <h3>New Delhi → Mumbai</h3>
+                    <p>Rajdhani & premium express options</p>
+                    <div class="route-line"></div><b>From ₹2,050</b>
+                </div>
+                <div class="card route-card">
+                    <div class="icon">🌴</div>
+                    <h3>Delhi → Kerala</h3>
+                    <p>Long-distance comfort journeys</p>
+                    <div class="route-line"></div><b>From ₹1,780</b>
+                </div>
+                <div class="card route-card">
+                    <div class="icon">🕌</div>
+                    <h3>Delhi → Lucknow</h3>
+                    <p>Fast AC services and daily trains</p>
+                    <div class="route-line"></div><b>From ₹1,450</b>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" style="padding-top:0">
+        <div class="container">
+            <div class="features">
+                <div class="feature">🔎<b>Smart Search</b><span>Find trains with route and class filters.</span></div>
+                <div class="feature">💺<b>Seat Selection</b><span>Interactive coach and seat selection.</span></div>
+                <div class="feature">🎟️<b>Digital Ticket</b><span>Generate a printable ticket instantly.</span></div>
+                <div class="feature">🔐<b>Local Storage</b><span>Demo bookings persist in your browser.</span></div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h3>🚆 RAILSETU</h3>
+                <p>Modern railway journey planning and demo booking experience for India.</p>
+            </div>
+            <div>
+                <h3>Book</h3><a href="trains.html">Search Trains</a><a href="stations.html">Stations</a><a
+                    href="pnr.html">PNR Status</a>
+            </div>
+            <div>
+                <h3>Manage</h3><a href="booking-history.html">Bookings</a><a href="train-status.html">Train Status</a><a
+                    href="contact.html">Help Centre</a>
+            </div>
+            <div>
+                <h3>Project</h3><a href="about.html">About</a><a href="contact.html">Contact</a><a
+                    href="login.html">Account</a>
+            </div>
+        </div>
+        <div class="container copyright">© 2026 RAILSETU • Educational front-end project. Not an official IRCTC service.
+        </div>
+    </footer>
+    <div id="toast" class="toast"></div>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌙</button>
+    <script src="js/app.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>

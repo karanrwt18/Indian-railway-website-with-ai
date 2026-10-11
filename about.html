@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>About RAILSETU | RAILSETU</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container nav"><a class="brand" href="index.html"><span class="brand-mark">
+                    <img src="gassets/jj.png" alt="Indian Railways Logo">
+                </span>
+                Indian Railways</a><button class="menu">☰</button>
+            <nav class="navlinks">
+                <a class="" href="index.html">Home</a><a class="" href="trains.html">Trains</a><a
+                    href="pnr.html">PNR</a><a href="train-status.html">Train Status</a><a
+                    href="booking-history.html">Bookings</a><a href="about.html">About</a><a
+                    href="contact.html">Contact</a><a class="btn btn-primary" href="login.html">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="pagehead">
+        <div class="container">
+            <h1>About RAILSETU</h1>
+            <p>A large educational railway-booking interface built with web fundamentals.</p>
+        </div>
+    </section>
+
+    <main class="section">
+        <div class="container">
+            <div class="cards">
+                <div class="panel">
+                    <h2>Our idea</h2>
+                    <p style="margin-top:12px;color:var(--muted)">RAILSETU demonstrates how HTML5, CSS3 and Vanilla
+                        JavaScript can create a complete multi-page travel booking experience without React, Bootstrap
+                        or Tailwind.</p>
+                </div>
+                <div class="panel">
+                    <h2>What it demonstrates</h2>
+                    <p style="margin-top:12px;color:var(--muted)">Search, filtering, passenger forms, interactive seats,
+                        simulated payments, PNR lookup, booking history and ticket generation using browser storage.</p>
+                </div>
+                <div class="panel">
+                    <h2>Important</h2>
+                    <p style="margin-top:12px;color:var(--muted)">This is an educational demo and is not connected to
+                        Indian Railways or IRCTC. No real money is charged and no real reservation is created.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ============ TRAIN PHOTO GALLERY ============ -->
+    <section class="section" style="padding-top:0">
+        <div class="container">
+            <div class="section-head">
+                <div>
+                    <h2>Our Train Fleet</h2>
+                    <p class="section-sub">Explore the iconic trains of Indian Railways featured in RAILSETU.</p>
+                </div>
+            </div>
+
+            <div class="train-gallery">
+
+                <!-- 1. Vande Bharat -->
+                <div class="train-photo-card">
+                    <img src="gassets/vande.jpg" alt="Vande Bharat Express">
+                    <div class="train-photo-info">
+                        <h3>Vande Bharat Express</h3>
+                        <p>India's fastest semi-high-speed train</p>
+                    </div>
+                </div>
+
+                <!-- 2. Rajdhani -->
+                <div class="train-photo-card">
+                    <img src="gassets/raj.jpg" alt="Rajdhani Express">
+                    <div class="train-photo-info">
+                        <h3>Rajdhani Express</h3>
+                        <p>Premium AC train connecting major cities</p>
+                    </div>
+                </div>
+
+                <!-- 3. Shatabdi -->
+                <div class="train-photo-card">
+                    <img src="gassets/sa.jpg" alt="Shatabdi Express">
+                    <div class="train-photo-info">
+                        <h3>Shatabdi Express</h3>
+                        <p>Day-time intercity superfast trains</p>
+                    </div>
+                </div>
+
+                <!-- 4. Toy Train -->
+                <div class="train-photo-card">
+                    <img src="gassets/toy.jpg" alt="Kalka Shimla Toy Train">
+                    <div class="train-photo-info">
+                        <h3>Kalka-Shimla Toy Train</h3>
+                        <p>UNESCO World Heritage Mountain Railway</p>
+                    </div>
+                </div>
+
+                <!-- 5. Tejas -->
+                <div class="train-photo-card">
+                    <img src="gassets/tej.jpg" alt="Tejas Express">
+                    <div class="train-photo-info">
+                        <h3>Tejas Express</h3>
+                        <p>Modern premium train with luxury amenities</p>
+                    </div>
+                </div>
+
+                <!-- 6. Duronto -->
+                <div class="train-photo-card">
+                    <img src="gassets/du.jpg" alt="Duronto Express">
+                    <div class="train-photo-info">
+                        <h3>Duronto Express</h3>
+                        <p>Non-stop long distance superfast trains</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h3>🚆 RAILSETU</h3>
+                <p>Modern railway journey planning and demo booking experience for India.</p>
+            </div>
+            <div>
+                <h3>Book</h3><a href="trains.html">Search Trains</a><a href="stations.html">Stations</a><a
+                    href="pnr.html">PNR Status</a>
+            </div>
+            <div>
+                <h3>Manage</h3><a href="booking-history.html">Bookings</a><a href="train-status.html">Train Status</a><a
+                    href="contact.html">Help Centre</a>
+            </div>
+            <div>
+                <h3>Project</h3><a href="about.html">About</a><a href="contact.html">Contact</a><a
+                    href="login.html">Account</a>
+            </div>
+        </div>
+        <div class="container copyright">© 2026 RAILSETU • Educational front-end project. Not an official IRCTC service.
+        </div>
+    </footer>
+
+    <div id="toast" class="toast"></div>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌙</button>
+    <script src="js/app.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>
